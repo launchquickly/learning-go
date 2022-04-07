@@ -37,4 +37,4 @@ This section has a proposal on how to incrementally update the version of Go use
 
 - [hello.go](/ch1/hello.go) - simple hello world type example to try out `go run`, `go build` and `go fmt` and similar 
 commands on
-- [Makefile](ch1/Makefile) - simple Makefile example
+- [Makefile](/ch1/Makefile) - simple Makefile example
