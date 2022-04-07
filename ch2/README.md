@@ -37,3 +37,51 @@ String literal examples that are equivalent:
 ## Floating point
 
 Similar to other programming languages do not use them to represent money or any other value that must have an exact decimal representation.
+
+## var Versus :=
+
+If declaring multiple variables at once , you can wrap them in a **declaration list**:
+
+```
+var (
+  x     int
+  y         = 20
+  d, e      = 40, "hello"
+)
+```
+
+Within a function, you can use `:=` to replace `var`, both the below statements do the same thing:
+
+```
+var x = 10
+x := 10
+```
+
+### Which style to use
+
+- within a function use `:-`
+  - except when initializing to its zero value, use `var x int` or similar
+  - some cases involving untyped constants and similar
+- outside a function user `var`
+- if declaring multiple package level variables use a **declaration list**
+
+> Avoid declaring variables outside of functions because they complicate data flow analysis
+
+## Using const
+
+Constants are a way to give names to literals. They do not support a value calculated at runtime.
+
+Constants can be typed or untyped. Generally leaving a constant untyped gives more flexibility. e.g.
+
+```
+const x = 10
+
+var y int = x
+var z float64 = x
+```
+
+not
+
+```
+const x float64 = 10
+```

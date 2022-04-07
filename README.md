@@ -13,6 +13,12 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
    - Staying Up to Date
    - Code examples
 1. [Primitive Types and Declarations](/ch2/README.md)
+   - Literals
+   - Choosing Integer types
+   - Floating point
+   - var Versus :=
+   - Using const
+   - Naming Variables and Constants
 
 ## References
 
