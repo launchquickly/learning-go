@@ -9,7 +9,7 @@ and are too restrictive for general use
 
 Length is not part of the type of a slice.
 
-```
+```go
 var x = []int{10, 20, 30}
 var y []int  // assigned to nil
 ```
@@ -30,7 +30,7 @@ var y []int  // assigned to nil
 
 ### Converting Arrays to Slices
 
-```
+```go
 x := 4[int]{5, 6, 7, 8}
 y := x[:2]              // will have memory-sharing with original array values
 ```
@@ -51,7 +51,7 @@ y := x[:2]              // will have memory-sharing with original array values
 - struct can be declared in an anonymous fashion
 - structs can be converted to another struct if field name and order match
 
-```
+```go
 type person struct {
     age     int
     name    string

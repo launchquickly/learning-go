@@ -10,6 +10,7 @@ lint: fmt
 
 vet: fmt
 		go vet hello.go
+		shadow hello.go
 .PHONY:vet
 
 build: vet

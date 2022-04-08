@@ -7,7 +7,7 @@ sets up the following for an Ubuntu maching in a manner similar to that describe
 
 - Go development tools
 - Go Workspace
-- A number of 3rd party utilities, including: goimport; golint, gopls, delve, staticcheck and gotests
+- A number of 3rd party utilities, including: goimport; golint, gopls, delve, staticcheck, shadow and gotests
 - VS Code with the golang.go extension installed
 
 ## Code Style

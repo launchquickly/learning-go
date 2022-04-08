@@ -27,6 +27,8 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
    - Maps
    - Using Maps as Sets
    - Structs
+1. [Blocks, Shadows, and Control Structures](/ch4/README.md)
+   - ?
 
 ## References
 

@@ -19,11 +19,11 @@ Go should be written:
 
 String literal examples that are equivalent:
 - Interpreted
-```
+```go
   "Greeting and\n\"Salutations\""
 ```
 - Raw
-```
+```go
   `Greetings and
    "Salutations"`
 ```
@@ -42,7 +42,7 @@ Similar to other programming languages do not use them to represent money or any
 
 If declaring multiple variables at once , you can wrap them in a **declaration list**:
 
-```
+```go
 var (
   x     int
   y         = 20
@@ -52,7 +52,7 @@ var (
 
 Within a function, you can use `:=` to replace `var`, both the below statements do the same thing:
 
-```
+```go
 var x = 10
 x := 10
 ```
@@ -73,7 +73,7 @@ Constants are a way to give names to literals. They do not support a value calcu
 
 Constants can be typed or untyped. Generally leaving a constant untyped gives more flexibility. e.g.
 
-```
+```go
 const x = 10
 
 var y int = x
@@ -82,7 +82,7 @@ var z float64 = x
 
 not
 
-```
+```go
 const x float64 = 10
 ```
 
