@@ -85,3 +85,9 @@ not
 ```
 const x float64 = 10
 ```
+
+## Naming Variables and Constants
+
+- `_` is a valid character in a variable name but seldom used as Go doesn't use snake case, but camel case 
+- constants in Go should **not** be uppercased as Go uses the case of the first level to determine package or public access
+- favour short names, e.g. `k` and `v` for key and value.
