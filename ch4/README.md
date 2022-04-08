@@ -88,3 +88,50 @@ element to the last element.
 
 ## `switch`
 
+You can switch on any type that can be compared with `==`.
+
+By default, cases in `switch` statements do **not** fall through. This does mean
+that **empty* cases will do nothing. You can use labels in switch statements too.
+
+```go 
+words := []string{"a", "cow", "smile", "gopher"}
+for _, word := range words {
+    switch size := len(word); size {
+        case 1, 2, 3, 4:
+            fmt.Println(word, "is a short word!")
+        case 5:
+            fmt.Println(word, "is exactly the right length")
+        case 6,7:
+        default:
+            fmt.Println(word, "is a long word!")
+    }
+}
+```
+
+## Blank Switches
+
+You can write a `switch` statement that does not specify the value you are 
+comparing against. This is called a *blank switch*. A blank switch allows
+you to use any boolean comparison for each case.
+
+```go
+    ...
+    switch wordLen := len(word); {
+    case wordLen < 5:
+        fmt.Println(word, "is a short word!")
+    case wordLen > 10:
+        fmt.Println(word, "is a long word!")
+    default:
+      ...
+    }
+    ...
+```
+
+## Choosing Between `if` and `switch`
+
+A `switch` statement indicates ther is some relationship between the values or
+comparisons in each case.
+
+> Favour blank `switch` statements over `if`/`else` chains when you have multiple
+> related cases. Using a `switch` makes the comparisons more visible and 
+> reinforces that they are a related set of concerns.
