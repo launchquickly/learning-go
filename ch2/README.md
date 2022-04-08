@@ -38,7 +38,7 @@ String literal examples that are equivalent:
 
 Similar to other programming languages do not use them to represent money or any other value that must have an exact decimal representation.
 
-## var Versus :=
+## `var` Versus `:=`
 
 If declaring multiple variables at once , you can wrap them in a **declaration list**:
 
@@ -67,7 +67,7 @@ x := 10
 
 > Avoid declaring variables outside of functions because they complicate data flow analysis
 
-## Using const
+## Using `const`
 
 Constants are a way to give names to literals. They do not support a value calculated at runtime.
 

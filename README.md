@@ -18,8 +18,8 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
    - Literals
    - Choosing Integer types
    - Floating point
-   - var Versus :=
-   - Using const
+   - `var` Versus `:=`
+   - Using `const`
    - Naming Variables and Constants
 1. [Composite Types](/ch3/README.md)
    - Arrays
