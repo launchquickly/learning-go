@@ -19,6 +19,12 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
    - var Versus :=
    - Using const
    - Naming Variables and Constants
+1. [Composite Types](/ch3/README.md)
+   - Arrays
+   - Slices
+   - Maps
+   - Using Maps as Sets
+   - Structs
 
 ## References
 
