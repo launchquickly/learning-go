@@ -38,6 +38,19 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
    - `switch`
    - Blank Switches
    - Choosing Between `if` and `switch`
+1. Functions
+   - Multiple Return Values
+   - Ignored Returned Values
+   - Named Return Values
+   - Blank Returns - Never Use These!
+   - Functions Are Values
+   - Function Type Declarations
+   - Anonymous Functions
+   - Closures
+   - Passing Functions as Parameters
+   - Returning Functions from Functions
+   - `defer`
+   - Go Is Call By Value
 
 ## References
 
