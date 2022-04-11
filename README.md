@@ -51,6 +51,16 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
    - Returning Functions from Functions
    - `defer`
    - Go Is Call By Value
+1. Pointers
+   - A Quick Pointer Primer
+   - Pointer syntax
+   - Pointers Indicate Mutable Parameters
+   - Pointers Are a Last Resort
+   - Pointer Passing Performance
+   - The Zero Value Versus No Value
+   - The Difference Between Maps and Slices
+   - Slices as Buffers
+   - Reducing the Garbage Collector's Workload
 
 ## References
 
