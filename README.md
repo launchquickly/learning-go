@@ -61,6 +61,22 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
    - The Difference Between Maps and Slices
    - Slices as Buffers
    - Reducing the Garbage Collector's Workload
+1. Types, Methods, and interfaces
+   - Methods
+   - Pointer Receivers and Value Receivers
+   - Code Your Methods for `nil` instances
+   - Methods Are Functions Too
+   - Functions Versus Methods
+   - Types Are Executable Documentation
+   - `iota` is for Enumeration - Sometimes
+   - Use Embedding for Composition
+   - Embedding Is Not Inheritance
+   - A Quick Lesson on Interfaces
+   - Interfaces Are Type-Safe Duck Typing
+   - Embedding and Interfaces
+   - Accept Interfaces, Return Structs
+   - Interfaces and `nil`
+   - 
 
 ## References
 
