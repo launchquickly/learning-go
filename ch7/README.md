@@ -126,3 +126,62 @@ must be `nil`.
 
 `nil` for interfaces indicates whether you can invoke methods on it. If an
 interface is `nil` invoking a method on it triggers a panic.
+
+## The Empty Interface Says Nothing
+
+A way to say that a variable could store a value of any type:
+
+```go
+var i interface{}
+```
+
+## Type Assertions and Type Switches
+
+There are 2 ways to see if a variable of an interface type has a specific
+concrete type:
+
+### 1. Type Assertions
+
+Names the concrete type that implemented the interface
+
+```go
+i2 := i.(MyInt)
+```
+
+If you get the type wrong this will create a panic. For this reason it is
+better to use the "comma ok idiom":
+
+```go
+i2, ok := i.(MyInt)
+if !ok {
+    return fmt.Errorf("unexpected type for %v", i)
+}
+.... // otherwise continue to process i2
+```
+
+### 2. Type Switches
+
+```go
+....
+    switch i := i.(type)
+    case nil:
+        // i is nil, type is interface{}
+    case int:
+        // i is of type int
+    case MyInt:
+        // i is of type MyInt
+    case io.Reader:
+        // i is of type Reader
+    default:
+        // no idea, so i is type interface{}
+```
+It is idiomatic to assign the variable being switched on to a variable of the
+same name. Making it one of the few places where **shadowing** is a good idea.
+
+## Use Type Assertions and Type Switches Sparingly
+
+## Function Types Are a Bridge to Interfaces
+
+## Implicit Interfaces Make Dependency Injection Easier
+
+Worked example in the book demonstrates this

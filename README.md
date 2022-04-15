@@ -76,7 +76,11 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
    - Embedding and Interfaces
    - Accept Interfaces, Return Structs
    - Interfaces and `nil`
-   - 
+   - The Empty Interface Says Nothing
+   - Type Assertions and Type Switches
+   - Use Type Assertions and Type Switches Sparingly
+   - Function Types Are a Bridge to Interfaces
+   - Implicit Interfaces Make Dependency Injection Easier
 
 ## References
 
