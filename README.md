@@ -81,6 +81,17 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
    - Use Type Assertions and Type Switches Sparingly
    - Function Types Are a Bridge to Interfaces
    - Implicit Interfaces Make Dependency Injection Easier
+1. Errors
+   - Use Strings for Simple Errors
+   - Sentinel Errors
+   - Errors Are Values
+   - Wrapping Errors
+   - Wrapping Errors with `defer`
+   - `panic` and `recover`
+   - Getting a Stack Trace from an Error
+   - References
+1. Modules, Packages, and Imports
+   - 
 
 ## References
 
