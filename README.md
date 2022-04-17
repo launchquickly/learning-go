@@ -91,7 +91,19 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
    - Getting a Stack Trace from an Error
    - References
 1. Modules, Packages, and Imports
-   - 
+   - Repositories, Modules, and Packages
+   - go.mod
+   - Building Packages
+   - Package Comments and godoc
+   - The `internal` package
+   - The `init` Function: Avoid if Possible
+   - Circular Dependencies
+   - Gracefully Renaming and Reorganising Your API
+   - Working with Modules
+   - Publishing Your Module
+   - Versioning Your Module
+   - Module Proxy Servers
+   - References
 
 ## References
 
