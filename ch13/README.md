@@ -64,3 +64,36 @@ go tool cover -html=c.out               // identify where coverage is missing
 
 ## Benchmarks
 
+Go's testing framework has built in benchmarking support.
+
+Benchmarks are functions in your test files that start with *Benchmark* and
+take a single parameter `b *testing.B`.
+
+If benchmarking reveals a performance or memory problem the next step is to
+investigate it. A good starting point on profiling with Go is:
+[Profiling Go programs with pprof](https://jvns.ca/blog/2017/09/24/profiling-go-with-pprof/)
+
+## Stubs in Go
+
+## httptest
+
+The Go standard library includes `net/http/httptest` package to make it easier
+to stub HTTP services.
+
+## Integration Tests and Build Tags
+
+*build tags* can be used to control when code is compiled. This can be used for
+splitting tests into groups. 
+
+```go
+// +build integration
+```
+
+Tests without build tags run all the time. Tests with build tags are run 
+similar to:
+
+```bash
+go tst -tags integration -v ./..
+```
+
+## Finding Concurrency Problems with the Race Checker

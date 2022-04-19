@@ -114,7 +114,11 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
    - Use go-cmp to Compare Test Results
    - Table Tests
    - Checking Your Code Coverage
-   - 
+   - Benchmarks
+   - Stubs in Go
+   - httptest
+   - Integration Tests and Build Tags
+   - Finding Concurrency Problems with the Race Checker
 
 ## References
 
