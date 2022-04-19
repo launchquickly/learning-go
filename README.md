@@ -107,7 +107,6 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
 1. TODO
 1. TODO
 1. TODO
-1. TODO
 1. Writing Tests
    - The Basics of Testing
    - Reporting Test Failures
