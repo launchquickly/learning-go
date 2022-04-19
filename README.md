@@ -104,6 +104,10 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
    - Versioning Your Module
    - Module Proxy Servers
    - References
+1. TODO
+1. TODO
+1. TODO
+1. TODO
 1. Writing Tests
    - The Basics of Testing
    - Reporting Test Failures
@@ -119,6 +123,14 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
    - httptest
    - Integration Tests and Build Tags
    - Finding Concurrency Problems with the Race Checker
+1. TODO
+1. A Look at the Future: Generics in Go
+   - Introducing Generics in Go
+   - Use Type Lists to Specify Operators
+   - Generic Functions Abstract Algorithms
+   - Type Lists Limit Constants and Implementations
+   - Things That Are Left Out
+   - Idiomatic Go and Generics
 
 ## References
 
