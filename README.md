@@ -105,7 +105,11 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
    - Module Proxy Servers
    - References
 1. TODO
-1. TODO
+1. The Standard Library
+   - `io` and Friends
+   - `time`
+   - `encoding/json`
+   - `net/http`
 1. The Context
    - What Is the Context?
    - Cancellation
@@ -141,3 +145,4 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
 - [Learing Go](https://www.oreilly.com/library/view/learning-go/9781492077206/)
 - https://github.com/learning-go-book - code examples, exercises, etc
 - [Go Wiki](https://github.com/golang/go/wiki/)
+- [Golang Standard Library docs](https://pkg.go.dev/std)
