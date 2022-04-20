@@ -38,7 +38,7 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
    - `switch`
    - Blank Switches
    - Choosing Between `if` and `switch`
-1. Functions
+1. [Functions](/ch5/README.md)
    - Multiple Return Values
    - Ignored Returned Values
    - Named Return Values
@@ -51,7 +51,7 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
    - Returning Functions from Functions
    - `defer`
    - Go Is Call By Value
-1. Pointers
+1. [Pointers](/ch6/README.md)
    - A Quick Pointer Primer
    - Pointer syntax
    - Pointers Indicate Mutable Parameters
@@ -61,7 +61,7 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
    - The Difference Between Maps and Slices
    - Slices as Buffers
    - Reducing the Garbage Collector's Workload
-1. Types, Methods, and interfaces
+1. [Types, Methods, and interfaces](/ch7/README.md)
    - Methods
    - Pointer Receivers and Value Receivers
    - Code Your Methods for `nil` instances
@@ -81,7 +81,7 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
    - Use Type Assertions and Type Switches Sparingly
    - Function Types Are a Bridge to Interfaces
    - Implicit Interfaces Make Dependency Injection Easier
-1. Errors
+1. [Errors](/ch8/README.md)
    - Use Strings for Simple Errors
    - Sentinel Errors
    - Errors Are Values
@@ -90,7 +90,7 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
    - `panic` and `recover`
    - Getting a Stack Trace from an Error
    - References
-1. Modules, Packages, and Imports
+1. [Modules, Packages, and Imports](/ch9/README.md)
    - Repositories, Modules, and Packages
    - go.mod
    - Building Packages
@@ -104,19 +104,19 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
    - Versioning Your Module
    - Module Proxy Servers
    - References
-1. TODO
-1. The Standard Library
+1. [TODO](/ch10/README.md)
+1. [The Standard Library](/ch11/README.md)
    - `io` and Friends
    - `time`
    - `encoding/json`
    - `net/http`
-1. The Context
+1. [The Context](/ch12/README.md)
    - What Is the Context?
    - Cancellation
    - Timers
    - Handling Context Cancellation in Your Own Code
    - Values
-1. Writing Tests
+1. [Writing Tests](/ch13/README.md)
    - The Basics of Testing
    - Reporting Test Failures
    - Setting Up and Tearing Down
@@ -131,8 +131,16 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
    - httptest
    - Integration Tests and Build Tags
    - Finding Concurrency Problems with the Race Checker
-1. TODO
-1. A Look at the Future: Generics in Go
+1. [Here There Be Dragons: Reflect, Unsafe, and Cgo](/ch14/README.md)
+   - Reflection Lets Us Work with Types at Runtime
+   - Use Reflection to Write a Data Marshaller
+   - Build Functions with Reflection to Automate Repetitive Tasks
+   - You Can Build Structs with Reflection, but Don't
+   - Reflection Can't Make Methods
+   - Only Use Reflection If It's Worthwhile
+   - `unsafe` Is Unsafe
+   - Cgo Is for Integration, Not Performance
+1. [A Look at the Future: Generics in Go](/ch15/README.md)
    - Introducing Generics in Go
    - Use Type Lists to Specify Operators
    - Generic Functions Abstract Algorithms
