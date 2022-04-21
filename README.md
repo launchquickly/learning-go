@@ -1,6 +1,6 @@
 # learning-go
 
-Notes and code examples created whilst following the [Learing Go](https://www.oreilly.com/library/view/learning-go/9781492077206/) 
+Notes and code examples created whilst following the [Learning Go](https://www.oreilly.com/library/view/learning-go/9781492077206/) 
 book. 
 
 This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Programming".
