@@ -104,7 +104,10 @@ This book by Jon Bodner aims to teach "An Idiomatic Approach to Real-World Go Pr
    - Versioning Your Module
    - Module Proxy Servers
    - References
-1. [TODO](/ch10/README.md)
+1. [Concurrency in Go](/ch10/README.md)
+   - When to Use Concurrency
+   - Goroutines
+   - 
 1. [The Standard Library](/ch11/README.md)
    - `io` and Friends
    - `time`
