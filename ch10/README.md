@@ -41,4 +41,18 @@ func runThingConcurrently(in <-chan int, out chan<- int) {
 
  ## Channels
 
- 
+Channels are a built-in *reference* type:
+
+```go
+ch := make(chan int)
+```
+
+ ### Reading, Writing, and Buffering
+
+ ```go
+a := <-ch   // read a value from channel and assign to a
+ch <- b     // write b to the channel
+ ```
+
+ - values are only read once, even if there are multiple goroutines reading from
+ the same channel
